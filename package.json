@@ -1,0 +1,17 @@
+{
+  "name": "discord-channel-role-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "指定チャンネルへの投稿者にロールを付与する Discord Bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "setup": "node src/setup.js",
+    "start": "node src/bot.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  }
+}
